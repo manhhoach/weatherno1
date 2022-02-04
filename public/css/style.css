@@ -1,0 +1,75 @@
+body{
+    background-image:url('/img/earth1.jpg');
+    background-size:contain;
+    background-position: center;
+    font-family: Arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+.main-content{
+    flex-grow: 1;
+
+}
+
+footer{
+
+    border-top: 2px solid #eeeeee;
+    padding:16px 0;
+    margin-top:16px;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size:50px;
+    margin-bottom: 16px;
+}
+
+header a{
+    color: white;
+    margin-right: 16px;
+    text-decoration: none;
+
+}
+
+.weather{
+   
+    font-size:30px;
+  
+}
+
+#footer-font{
+    color: white;
+}
+
+#img-weather{
+    border-radius: 50%;
+}
+
+input{
+    border: 1px solid green;
+    padding:5px;
+    font-size: 25px;
+
+}
+button{
+    cursor: pointer;
+    font-size: 20px;
+
+}
+#message-1{
+    color: #71c2f8;
+    font-size: 25px;
+}
+#message-2{
+    font-size:20px;
+    
+    color: #ff8383;
+}
