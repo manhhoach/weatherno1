@@ -4,7 +4,7 @@ const path=require('path')
 const express= require('express');
 const app = express()
 const hbs=require('hbs')
-const port=2000;
+const port=process.env.PORT||2000;
 const dotenv=require('dotenv').config();
 
 // template engine
